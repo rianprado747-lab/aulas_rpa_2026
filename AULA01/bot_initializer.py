@@ -1,9 +1,6 @@
 BOT_NAME = str('RPA_FINANCEIRO AULA 01')
-
 MAX_RETRIS = int(10)
-
 EXECUTION_TIMEOUT = float(59.9)
-
 IS_PRODUCTION = bool(False)
 
 print(f'BOT NAME: {BOT_NAME} {type(BOT_NAME)}')
