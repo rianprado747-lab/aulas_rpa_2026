@@ -7,9 +7,10 @@ for valor in transacoes:
         continue
     elif valor <= 0:
         if valor == 0:
-            print(f'\033[31m[ERRO CRÍTICO] Transação inválida encontrada de R${valor:.2f}: Valor negativo não permitido.\033[0m')
+            print(f'\033[31m[ERRO CRÍTICO] Transação inválida de R${valor:.2f}: Valor zero não permitido.\033[0m')
             break
         else:
-            print(f'\033[31m[ERRO CRÍTICO] Transação inválida encontrada de R${valor:.2f}: Valor negativo não permitido.\033[0m')
+            print(f'\033[31m[ERRO CRÍTICO] Transação inválida de R${valor:.2f}: Valor negativo não permitido.\033[0m')
     else:
         print(f'\033[32mTransação de R${valor:.2f} processada com sucesso.\033[0m')
+        
